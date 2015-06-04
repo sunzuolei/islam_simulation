@@ -52,3 +52,7 @@ Functions for drawing.
   journal={系统仿真学报},</br>
   year={2015}</br>
 }
+=======
+# islam_simulation
+The codes of the paper The Mobile Robot SLAM Simulation with Multi Measurement Update
+>>>>>>> e573e89d0983c60592b408df3cf2b0b6f88d91ee
