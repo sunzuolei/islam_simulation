@@ -1,3 +1,14 @@
+# islam_simulation
+The codes of the paper The Mobile Robot SLAM Simulation with Multi Measurement Update.
+
+**The bibtex of this paper is :**</br>
+@article{许亚芳2015基于多次测量更新的移动机器人SLAM仿真,</br>
+  title={基于多次测量更新的移动机器人SLAM仿真},</br>
+  author={许亚芳 and 孙作雷 and 曾连荪 and 张波},</br>
+  journal={系统仿真学报},</br>
+  year={2015}</br>
+}
+
 # About the project
 ```
 Run the script "run.m", and you can see the demo of EKF-SLAM or IEKF-SLAM by setting the switches. 
@@ -38,21 +49,9 @@ Tools for SLAM Demo.
 * **piTopi.m :** make sure the angle is in [-pi, pi].
 
 ## Visualization
-Functions for drawing.
-* **vis.m :** for animation.
+Functions for animation.
+* **vis.m :** the main function for animation.
 * **getLandmark.m :** get the landmarks within robot's laser range.
-* **getSigmaEllipse.m :** For drawing the sigma ellipse which represents the uncertainty.
+* **getSigmaEllipse.m :** for drawing the sigma ellipse which represents the uncertainty.
 * **makeFcov.m :** make features' covariance ecllipse.
 * **makeLines.m :** make sets of line segments for laser range-bearing measurements.
-
-**The bibtex of this paper is :**</br>
-@article{许亚芳2015基于多次测量更新的移动机器人SLAM仿真,</br>
-  title={基于多次测量更新的移动机器人SLAM仿真},</br>
-  author={许亚芳 and 孙作雷 and 曾连荪 and 张波},</br>
-  journal={系统仿真学报},</br>
-  year={2015}</br>
-}
-=======
-# islam_simulation
-The codes of the paper The Mobile Robot SLAM Simulation with Multi Measurement Update
->>>>>>> e573e89d0983c60592b408df3cf2b0b6f88d91ee
